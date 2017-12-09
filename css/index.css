@@ -46,6 +46,7 @@ font-weight: 400;
 }
 .play-form, .user-data-form {
 	display: flex;
+	flex-direction: column;
 	width: 100%;
 	margin: 14px 0;
 }
@@ -60,16 +61,14 @@ font-weight: 400;
 	margin: 14px 0;
 	height: 22px;
 	background-color: rgb(240, 234, 224);
+	font-size: .7em;
 }
 .user-data-form, .user-data-button {
 	width: 49%;
 }
-.play-button-p, .user-data-button-p {
-	margin: 0;
-	font-size: 1.2em;
-}
+
 .user-data {
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	align-items: center;
 	width: 50%;
