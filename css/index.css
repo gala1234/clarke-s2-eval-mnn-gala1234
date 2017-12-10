@@ -15,9 +15,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	background-color: rgb(206, 201, 193);
-	border-right: rgb(104, 102, 98);
-	border-right-style: solid;
-	border-right-width: thin;
+	border-right: thin solid rgb(104, 102, 98);
 	width: 70%;
 	height: 100vh;
 }
@@ -97,4 +95,23 @@ font-weight: 400;
 }
 .score-zone-ul {
 	margin-left: 4%;
+}
+@media all and (max-width:900px){
+	body {
+		flex-direction: column;
+	}
+	.play-zone {
+		width: 100%;
+		height: 70vh;
+		border-right: none;
+		border-bottom: thin solid rgb(104, 102, 98);
+	}
+	.score-zone {
+		width: 100%;
+		height: 30vh;
+		padding-left: 0;
+	}
+	.score-zone-h2 {
+		margin: 40px 0 0 42%;
+	}
 }
