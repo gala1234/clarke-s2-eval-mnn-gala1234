@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	font-family: Roboto;
 	font-size: 22px;
+	height: 100vh;
 }
 
 /*PLAY ZONE*/
@@ -17,7 +18,7 @@ body {
 	background-color: rgb(206, 201, 193);
 	border-right: thin solid rgb(104, 102, 98);
 	width: 70%;
-	height: 100vh;
+
 }
 .header {
 	display: flex;
