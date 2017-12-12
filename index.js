@@ -66,3 +66,13 @@ saveButton.addEventListener('click', function(){
 
 
 //Que pruebe al pulsar Enter
+
+var clicked = false;
+document.addEventListener('keypress', function(e) {
+    var keyn = e.keyCode || e.which|| 0;
+    if(keynum == 13) {
+			addWinner();
+			restart();
+			randomNumber = Math.floor((Math.random() * 100) + 1);
+    }
+});
